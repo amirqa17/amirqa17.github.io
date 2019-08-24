@@ -1,0 +1,157 @@
+html{
+  width:100%;
+}
+
+.App{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+
+ 
+}
+
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper > div {
+  position: absolute;
+}
+
+.logotip2{
+  width:100px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  body{
+    text-align:center;
+    
+  }
+  .navbar{
+    text-align:center;
+  }
+  .navbar-brand {
+    display: block;
+    position:relative;
+    margin: 0 auto;
+
+  
+ 
+ 
+  }
+.contacto{
+  display:block;
+}
+  .navbar-toggler
+  {
+  margin-bottom:0px;
+
+   position:relative;
+  }
+  
+.info{
+  display:none
+}
+
+.logotip2{
+
+width:80px;
+margin:0 auto;
+}
+
+.sublogo b{
+display:none;
+}
+
+.custom-column-content{
+  padding-top:0px;
+} 
+
+.lead{
+  font-size: 16px !important;
+}
+.cardnames{
+  font-size: 16px !important;
+}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .contacto{
+    display:block;
+  }
+  body{
+    
+  }
+  .navbar{
+    text-align:center;
+    display:block;
+    color:black;
+  }
+ 
+  .navbar-brand {
+    display: block;
+    position:relative;
+   
+   color:black;
+ 
+  }
+
+  .navbar-toggler
+  {
+  
+   
+   position:relative;
+  }
+  
+
+}
+
+
+
+.layout{
+  margin-top:25px;
+  height:100%;
+  
+}
+
+.first{
+
+  position:absolute;
+
+}
+
+.second{
+ 
+ position:relative;
+  padding: 0 0 0 0;
+
+}
+
+.cc{
+  text-align:left;
+}
+
+.name {
+
+
+  animation: move 1s ;
+}
+
+@keyframes move {
+  from { margin-left: 500px; }
+  to { margin-left: 0px; }
+}
+
+
+.active2{
+  color:black !important;
+  text-align:center;
+}
+
